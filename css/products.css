@@ -1,4 +1,121 @@
-* {
-  margin: 0;
-  padding: 0;
+*{
+    margin: 0;
+    padding: 0;
+  font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 3%;
+    /* height: 95vh; */
+    
+}
+.fa-circle-left{
+    position: absolute;
+    position: fixed;
+    top: 20px;
+    left: 30px;
+    font-size: 45px;
+    color: rgba(2, 2, 2, 0.722);
+}
+table{
+    height: 80%;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+    
+}
+
+td{
+    border-bottom: rgba(63, 63, 63, 0.621) solid 1px;
+    height: 10vh;
+    overflow: visible;
+    word-wrap: break-word;
+    white-space:normal;
+    text-align: center;
+    overflow: hidden;
+}
+tr:nth-of-type(odd){
+    background-color: rgb(219, 215, 215);
+}
+th{
+    background-color: goldenrod;
+    font-weight: 100;
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    border-bottom: rgba(0, 0, 0, 0.599) solid 2px;
+    height: 16vh;
+    position: sticky;
+    top: 0;
+    width: 20%;
+    font-size: 25px;  
+}
+.fa-trash-can{
+    color: rgb(255, 4, 4);
+    font-size: 25px;
+}
+.fa-trash-can:hover{
+    color: rgb(217, 3, 3);
+    transition: 0.3s;
+    transform: scale(1.2);
+    text-shadow: rgb(255, 81, 0) 2px 3px 3px;
+}
+.fa-pen-to-square{
+    color: rgb(31, 1, 255);
+    margin-right: 15px;
+    font-size: 25px;
+}
+.fa-pen-to-square:hover{
+    /* color: rgb(0, 251, 255); */
+    text-shadow: blue 3px 3px 3px;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+@media  (max-width:830px) {
+    table{
+        height: 80%;
+        width: 80%;
+        text-align: center;
+        border-collapse: collapse;
+        
+    }
+    .fa-pen-to-square{
+        color: rgb(31, 1, 255);
+        margin-right: 8px;
+    }
+    td{
+        border-bottom: rgba(63, 63, 63, 0.621) solid 1px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        height: 6vh;
+    }
+    th{
+        background-color: goldenrod;
+        font-weight: 100;
+        /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+        font-weight: 600;
+        height: 10vh;
+        
+        font-size: smaller;
+        
+    }
+    .fa-circle-left{
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        font-size: 30px;
+        color: rgba(2, 2, 2, 0.722);
+    }
+    .fa-circle-left{
+        position: absolute;
+        position: fixed;
+        top: 20px;
+        left: 10px;
+        font-size: 20px;
+        color: rgba(2, 2, 2, 0.722);
+    }
+   
 }
