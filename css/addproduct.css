@@ -22,12 +22,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    line-height: 30px;
     width:25%;
+    padding: 2rem;
 }
 .details{
   position: relative;
   padding-bottom: 15px;
+  line-height: 30px;
 }
 .details input{
   width: 100%;
@@ -43,7 +44,7 @@
 .details input:focus{
   outline: none;
   box-shadow: 1px 1px 8px rgba(17, 17, 110, 0.708);
-}
+} 
 @media screen and (max-width:1300px) and (min-width:800px)  {
   .container{
     width: 30%;
